@@ -4,17 +4,17 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = environ.get("API_ID" , " ")
-API_HASH = environ.get("API_HASH" , " ")
+API_ID = environ.get("API_ID" , "22582906")
+API_HASH = environ.get("API_HASH" , "e3096dde3e27c72a50e0e53d8ab23d6a")
 BOT_TOKEN = environ.get("BOT_TOKEN" , " ")
 ADMIN = int(environ.get("ADMIN" , "7861690278"))
 CHAT_GROUP = int(environ.get("CHAT_GROUP", "-1002667250027"))
 LOG_CHANNEL = environ.get("LOG_CHANNEL", "-1002748470671")
-MONGO_URL = environ.get("MONGO_URL" , " ")
+MONGO_URL = environ.get("MONGO_URL" , "mongodb+srv://bibekkumar723129:9NV9l6A0wly29zT0@cluster0.uiorpdg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 AUTH_CHANNEL = int(
     environ.get("AUTH_CHANNEL", "-1002667250027")
 )
-FSUB = environ.get("FSUB", True)
+FSUB = environ.get("FSUB", False)
 STICKERS_IDS = (
     "CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME"
 ).split()
