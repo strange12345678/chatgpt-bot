@@ -10,7 +10,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN" , " ")
 ADMIN = int(environ.get("ADMIN" , "7861690278"))
 CHAT_GROUP = int(environ.get("CHAT_GROUP", "-1002667250027"))
 LOG_CHANNEL = environ.get("LOG_CHANNEL", "-1002748470671")
-MONGO_URL = environ.get("MONGO_URL" , "mongodb+srv://bibekkumar723129:9NV9l6A0wly29zT0@cluster0.uiorpdg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_URL = environ.get("MONGO_URL" , "mongodb+srv://mahatobibek221034:FA1aFnrrZJH1j65U@cluster0.qalogrz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 AUTH_CHANNEL = int(
     environ.get("AUTH_CHANNEL", "-1002667250027")
 )
